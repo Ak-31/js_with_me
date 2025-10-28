@@ -48,4 +48,12 @@ console.log(typeof thisis)
 
 // ******Comparison******
 
-console.log("1"> "1"); // This converts the string to number and then checks and thats where the a
+console.log("1"> "1"); // This converts the string to number and then checks and thats where the ambiquity comes into picture 
+//What if 
+
+console.table(["2" > 1, "1"> 2])
+
+//Here comes the interesting conversion
+console.table([null>0, null==0 , null===0 , null>=0])
+console.table([undefined>0, undefined==0 , undefined===0 , undefined>=0])
+
