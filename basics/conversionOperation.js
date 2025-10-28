@@ -31,3 +31,21 @@ true => 1 ; false => 0 {Boolean to Number}
 null => 0 " ; null => "null" ; null=> false {null to Number; String; Boolean }
 
 */
+
+// ******Operations******
+
+console.table([2+2 , "2"+2, 2+"2", "1"+2+2, 1+"2"+2, 1+2+"2"])
+
+console.table([+true , true , +""])
+
+//Operators Precedences 
+a = b = 5; // same as writing a = (b = 5);
+
+// **, * , / , %,  +, - , +(Concatination)
+
+let thisis = +"" //This had type converted to Number
+console.log(typeof thisis)
+
+// ******Comparison******
+
+console.log("1"> "1"); // This converts the string to number and then checks and thats where the a
